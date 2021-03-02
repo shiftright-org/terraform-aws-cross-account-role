@@ -1,0 +1,8 @@
+iam_role_name               = "shiftright_sts_security_audit_role"
+shiftright_aws_account_id   = "123456"
+shiftright_external_id      = "1234-5678-9101112"
+aws_region                  = "us-west-2"
+aws_profile                 = "default"
+tags = {
+  client = "ShiftRight"
+}
