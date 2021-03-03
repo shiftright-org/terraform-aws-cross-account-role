@@ -7,6 +7,7 @@ variable "iam_role_name" {
 variable "shiftright_aws_account_id" {
   type        = string
   description = "The ShiftRight AWS account that the IAM role will grant access"
+  default     = "328992291952"
 }
 
 variable "tags" {
