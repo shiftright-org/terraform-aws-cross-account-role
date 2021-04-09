@@ -20,13 +20,3 @@ variable "shiftright_external_id" {
   type        = string
   description = "External Id that will be used in request to assume role"
 }
-
-variable "aws_region" {
-  type        = string
-  description = "AWS region"
-}
-
-variable "aws_profile" {
-  type        = string
-  description = "AWS account profile"
-}
